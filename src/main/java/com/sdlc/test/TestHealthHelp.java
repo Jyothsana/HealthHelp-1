@@ -9,6 +9,7 @@ import com.amazon.speech.speechlet.Session;
 import com.sdlc.healthhelp.HealthHelpSpeechlet;
 import com.sdlc.scheduling.Calendar;
 
+
 public class TestHealthHelp {
 
 	 @Rule
@@ -38,8 +39,8 @@ public class TestHealthHelp {
 	
 	@Test
 	public void TestHealthHelpCalendar() throws Exception {
-		String userName = "amalasdlc";
-		String userName1 = "ramkumarsdlc";
+		String userName = "kiosk.healthhelp1";
+		
 		
 //		healthHelpCalendar.viewEvents(userName1);
 	healthHelpCalendar.viewEvents(userName);

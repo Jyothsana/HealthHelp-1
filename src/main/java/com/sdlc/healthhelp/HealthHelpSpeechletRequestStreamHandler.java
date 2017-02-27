@@ -30,7 +30,8 @@ public final class HealthHelpSpeechletRequestStreamHandler extends SpeechletRequ
          * This Id can be found on https://developer.amazon.com/edw/home.html#/ "Edit" the relevant
          * Alexa Skill and put the relevant Application Ids in this Set.
          */
-        supportedApplicationIds.add("amzn1.echo-sdk-ams.app.[unique-value-here]");
+        supportedApplicationIds.add("amzn1.ask.skill.e53a5628-5a50-41c5-b3b2-2d7bfa8570b3");
+        
     }
 
     public HealthHelpSpeechletRequestStreamHandler() {
